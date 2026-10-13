@@ -1,0 +1,88 @@
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Distribution and packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+
+# Type checking and linting
+
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# IDE settings
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+
+*.log
+*.tmp
+*.bak
+
+# Database files
+
+*.sqlite3
+*.db
+
+# Documentation build files
+
+docs/_build/
+
+# PyInstaller
+
+*.spec
+*.manifest
+
+# Local configuration
+
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
